@@ -1,0 +1,237 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.App {
+  overflow: hidden;
+}
+
+.maincontainer1 {
+  background-color: #000000;
+}
+.image1 {
+  height: 20px;
+  padding-bottom: 4px;
+}
+.levyna {
+  color: white;
+  font-size: medium;
+  text-decoration: none;
+}
+.nav-link {
+  color: white;
+  font-size: small;
+}
+.image2 {
+  height: 19px;
+}
+.image3 {
+  height: 22px;
+}
+.button1 {
+  background-color: #e5be68;
+  font-size: x-small;
+  font-weight: 600;
+}
+.mainrow2 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.col1 {
+  text-align: left;
+  color: white;
+  padding-right: 3rem;
+  font-family: sans-serif;
+}
+.heading1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.col2 {
+  color: white;
+  text-align: left;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  font-weight: 100;
+  color: gray;
+}
+.change-text {
+  position: relative;
+  z-index: 0;
+  color: white;
+}
+.change-text:after {
+  content: " ";
+  background-color: #ffbe28;
+  position: absolute;
+  width: 172px;
+  height: 20px;
+  bottom: 0;
+  left: 4px;
+  opacity: 0.7;
+  z-index: -1;
+}
+strong {
+  font-weight: 100;
+  color: #e3e1e1;
+}
+.textmargin {
+  margin-top: -5px;
+}
+.textbold {
+  font-weight: 500;
+}
+.image4 {
+  height: 2rem;
+  width: 5rem;
+}
+.mainrow3 {
+  padding-bottom: 10rem;
+}
+.item4 {
+  text-align: left;
+  color: white;
+}
+.circle {
+  height: 10px;
+  width: 10px;
+  border-radius: 5.77rem;
+  background-color: gray;
+}
+.circle3 {
+  height: 10px;
+  width: 10px;
+  border-radius: 5.77rem;
+  background-color: #e5be68;
+}
+.imagecontainer {
+  position: absolute;
+  margin-top: -144px;
+}
+.images {
+  width: 25rem;
+  height: 18rem;
+}
+.conts {
+  padding-left: 12rem;
+  padding-right: 12rem;
+  margin-top: 1rem;
+}
+.uber {
+  margin-top: 11rem;
+}
+.c2 {
+  margin-top: 11.2rem;
+}
+.launchimage {
+  width: 2rem;
+  height: 2rem;
+}
+.c3 {
+  margin-top: 11rem;
+}
+.intercom {
+  font-size: small;
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+.intercomimage {
+  width: 2rem;
+  height: 2rem;
+}
+.c4 {
+  margin-top: 11rem;
+}
+.squareimage {
+  height: 2rem;
+  width: 3rem;
+}
+.square {
+  margin-top: 0.5rem;
+}
+.c5 {
+  margin-top: 11rem;
+}
+.harshiimage {
+  width: 1.5rem;
+  height: 2rem;
+}
+.harshi {
+  margin-top: 0.5rem;
+}
+.mainrow5 {
+  margin-top: 5rem;
+}
+.mainrow5image {
+  width: 32rem;
+  height: 24rem;
+}
+.col4 {
+  margin-top: 4rem;
+  text-align: left;
+  padding-bottom: 2rem;
+}
+.change-text2 {
+  position: relative;
+  z-index: 0;
+  color: black;
+}
+.change-text2:after {
+  content: " ";
+  background-color: #ffbe28;
+  position: absolute;
+  width: 16rem;
+  height: 16px;
+  bottom: 7px;
+  left: -6px;
+  opacity: 0.7;
+  z-index: -1;
+}
+.peratext {
+  padding-top: 1.5rem;
+  color: gray;
+  padding-bottom: 1.5rem;
+}
+.col4p {
+  margin-bottom: 0.5rem;
+}
+.button2 {
+  background-color: #e5be68;
+  border-radius: 0;
+}
+/* @media only screen and (max-width: 480px) {
+} */
+
+@media (max-width: 575.98px) {
+  .images {
+    width: 16rem;
+    height: 14rem;
+    margin-left: 9px;
+  }
+
+  .conts {
+    margin-top: 38rem;
+  }
+  .mainrow5image {
+    width: 13rem;
+    height: 12rem;
+  }
+  .heading1 {
+    font-size: medium;
+  }
+  .col4p {
+    font-size: small;
+  }
+}
+
+/* @media only screen and (min-width: 481px) and (max-width: 768px) { */
+/* } */
